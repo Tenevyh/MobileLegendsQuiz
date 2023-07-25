@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">VMLegends</string>
+    <string name="question_australia">Первыми врагами Лейлы в Монийской Империи стали учёные из лабы 1718.</string>
+    <string name="question_oceans">Отец Лейлы один из членов ученых лабы 1718.</string>
+    <string name="question_mideast">Губительную пушку Лейле подарил её дед.</string>
+    <string name="question_africa">Лейлу схватили учёные из лабы 1718, потому что она меткий стрелок.</string>
+    <string name="question_americas">В похищении Лейлы виновата Губительная Пушка.</string>
+    <string name="question_asia">Истинные причины поступка отца, Лейле рассказал дед.</string>
+    <string name="true_button">Правда</string>
+    <string name="false_button">Ложь</string>
+    <string name="correct_toast">Верно!</string>
+    <string name="incorrect_toast">Неверно!</string>
+    <string name="next_button">След.</string>
+    <string name="prev_button">Пред.</string>
+    <string name="warning_text">Вы уверенны, что хотите "так" узнать ответ?</string>
+    <string name="show_answer_button">Покажи ответ!</string>
+    <string name="cheat_button">Подсказка!</string>
+    <string name="judgment_toast">Подсматривать плохо!</string>
+    <string name="choose_hero">Выбрать героя</string>
+    <string name="layla">Лейла</string>
+    <string name="zask">Заск</string>
+    <string name="vanvan">Ван Ван</string>
+    <string name="valir">Валир</string>
+    <string name="back">Назад</string>
+    <string name="hero">Выберите героя!</string>
+    <string name="Choose">Выбрать героя</string>
+</resources>

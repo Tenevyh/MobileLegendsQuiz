@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/question"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lelaor">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <ImageButton
+            android:id="@+id/prev_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:backgroundTint="#3F51B5"
+            android:src="@drawable/left_arrow" />
+
+        <TextSwitcher
+
+            android:id="@+id/textSwitcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:background="#B3000000"
+            android:padding="24dp"
+            android:textColor="#FFFFFF"
+            tools:text="@string/question_australia" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3F51B5"
+            android:text="@string/false_button" />
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3F51B5"
+            android:text="@string/true_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal|bottom">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|right">
+
+        <Button
+            android:id="@+id/cheat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#3F51B5"
+            android:text="@string/cheat_button" />
+    </LinearLayout>
+</FrameLayout>
